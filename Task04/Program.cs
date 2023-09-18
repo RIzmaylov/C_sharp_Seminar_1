@@ -6,6 +6,11 @@
 
 Console.Write("Введите целое положительное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
+while (num < 0)
+{
+    Console.Write("Введите целое положительное число: ");
+    num = Convert.ToInt32(Console.ReadLine());
+}
 int num2 = -num;
 Console.Write($"{num} -> (");
 Console.Write(num2);
