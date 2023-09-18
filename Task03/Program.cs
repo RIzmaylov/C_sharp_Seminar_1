@@ -19,4 +19,5 @@ switch(num)
     case 5: Console.WriteLine("Пятница"); break;
     case 6: Console.WriteLine("Суббота"); break;
     case 7: Console.WriteLine("Воскресение"); break;
+    default : Console.WriteLine("Нет такого дня недели"); break;
 }
