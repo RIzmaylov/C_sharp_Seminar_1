@@ -12,4 +12,4 @@ while (num < 100 || num > 999)
     Console.Write("Введите трехзначное число: ");
     num = Convert.ToInt32(Console.ReadLine());
 }
-Console.WriteLine($"Последняя цифра числа: {num % 10}");
+Console.WriteLine($"Последняя цифра числа: {num % 10}"); M
